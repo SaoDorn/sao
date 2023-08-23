@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Hanuman:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Hanuman:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*variable declare*/
+:root{
+    --main-font:18px;
+    --main-color:#h
+    --font:16px;
+}
+.header{
+    width: 100%;
+    height: 140px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 50%;
+    height: 100%;
+    background-color: red; 
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box .logo{
+    width: 50%;
+    height: 100%;
+    
+}
+.box .ads{
+    width: 500%;
+    height: 100%;
+    background-color: yellow;
+
+}
+.box .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.box .ads img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-navbar{
+    width: 75%;
+    height: 100%;
+    /* background-color: blue; */
+    margin: auto;
+}
+.box-navbar .navbar {
+    width: 75%;
+    height: 100%;
+}
+.box-navbar .navbar ul{
+    display: flex;
+    list-style: none;
+}
+.box-navbar .navbar ul li{
+    padding: 9px 20px;
+    opacity: 0.8;
+}
+.box-navbar .navbar ul li:hover{
+    opacity:1;
+} 
+.box-navbar .navbar ul li a {
+    text-decoration: none;
+    font-family: 'Koulen';
+    font-size: var(--main font);
+    color:#fff;
+}
+/* navbar section */
+/* main section */
+.main-content{
+    width: 75%;
+    height: 510px;
+    background-color: black;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main-content .content-box{
+    width: 70%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-content  .content-box .box-1:nth-child(odd){
+    width: 58%;
+    height: 48%;
+    /* background-color: brown; */
+    position: relative;
+}
+.main-content  .content-box .box-1:nth-child(even){
+    width: 38%;
+    height: 48%;
+    background-color: aqua;
+}
+.main-content .ads-box{
+    width: 28%;
+    height: 100%;
+    background-color: green;
+}
+.main-content  .content-box .box-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-content  .content-box .box-1:hover .text{
+    top: 30%;
+    height: 140%;
+    transition: 0.4s;
+}
+.main-content  .content-box .box-1:hover h1{
+    color: red;
+}
+.text{
+    width: 100%;
+    height: 80px;
+    background-color: yellow;
+    position: absolute;
+    top:55%;
+    overflow: hidden;
+    padding: 10px;
+    transition: 0.5s;
+}
+.text h1{
+    font-family: 'Battambang';
+    font-size: var(--main-font);
+}
+.text p{
+    font-family: "Battambang";
+}
+/* main-section */
